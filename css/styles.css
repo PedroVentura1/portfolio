@@ -1,8 +1,8 @@
 section{
 	float: left;
 	margin-top: 5%;
-    line-height: 2.4em;
-    font-size: 20pt;    
+    line-height: 1.6em;
+    font-size: 12pt;    
 }
 section p::first-letter {
   font-weight: bold;
