@@ -64,16 +64,8 @@ table img{
   height: 500px;
 }
 
-.envolve h1{
-	/*border: 1px solid red;*/
-    width: 45%;
-    float: left;
-    margin-bottom: 0px;
-}
-.envolve h3{
-    float: left;    
-    width: 40%;
-    font-size: 32pt;
+.envolve h5{
+  margin-bottom: 10px;
 }
 .envolve h4{
 	    border: 1px solid blue;
