@@ -2,9 +2,11 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="HandheldFriendly" content="true">
+	<meta name="HandheldFriendly" content="true"> -->
+	
 	<script type="text/javascript"></script>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">	
 	<title>sitePetervent con mi primer servidor web.. YES!!</title>
@@ -13,7 +15,12 @@
 	<div class="envolve"> 
 	
 	<div class="menu"><!-- <p>- - - </p> -->
-		<img src="https://png.pngtree.com/svg/20170222/menu_13564.png">
+		<!-- <img src="https://png.pngtree.com/svg/20170222/menu_13564.png"> -->
+		<div class="container" onclick="myFunction(this)">
+		  <div class="bar1"></div>
+		  <div class="bar2"></div>
+		  <div class="bar3"></div>
+		</div>
 	</div>
 	<div>
 	<img src="img/picture.jpg">
@@ -28,5 +35,10 @@
 </section>
 <div class="collage"><img src="img/collage.png"></div>
 
+	<script>
+function myFunction(x) {
+    x.classList.toggle("change");
+}
+</script>
 </body>
 </html>
