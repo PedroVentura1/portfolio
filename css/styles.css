@@ -40,6 +40,9 @@ section p::first-letter {
     margin: 8px 0;
     transition: 0.4s;
 }
+.bar3{
+  width: 22px;
+}   
 
 ul{
   list-style: none;
