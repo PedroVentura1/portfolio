@@ -12,8 +12,9 @@ body{
 }
 section{
   float: left;
-    line-height: 1.8em;
-    font-size: 12pt;    
+   line-height: 1.8em;
+   font-size: 12pt; 
+   margin-top: 0px;
 }
 section p::first-letter {  
   font-size: 3em;
