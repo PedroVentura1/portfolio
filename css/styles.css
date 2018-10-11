@@ -37,7 +37,7 @@ section p::first-letter {
     width: 34px;
     height: 3px;
     background-color: #BD10E0;
-    margin: 8px 0;
+    margin: 7px 0;
     transition: 0.4s;
 }
 .bar3{
