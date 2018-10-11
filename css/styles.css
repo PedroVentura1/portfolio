@@ -15,7 +15,6 @@ section{
    line-height: 1.8em;
    font-size: 12pt; 
    margin-top: 0px;
-   border: 1px solid;
 }
 section p::first-letter {  
   font-size: 3em;
@@ -107,6 +106,7 @@ table img{
     width: 60%;
     float: left;
     margin-top: 10px;
+    margin-bottom: 20px;	
     font-weight: lighter;
 }
 
