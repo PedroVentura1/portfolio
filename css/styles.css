@@ -96,16 +96,11 @@ table img{
   height: 500px;
 }
 
-.envolve h1{
-	/*border: 1px solid red;*/
-    width: 45%;
-    float: left;
-    margin-bottom: 0px;
-}
 .envolve h4{
     float: left;    
     width: 60%; 
-    margin-bottom:0px;   
+    margin-bottom:0px;  
+    margin-top: 10px; 
 }
 .envolve h5{	  
     width: 60%;
@@ -113,9 +108,7 @@ table img{
     margin-top: 10px;
     font-weight: lighter;
 }
-/*.envolve .menu{
-	margin-bottom: 2%;
-}*/
+
 .envolve img	{
 	 float: left;
     margin-right:10%;
