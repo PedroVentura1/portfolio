@@ -18,9 +18,11 @@ section p::first-letter {
   font-size: 3em;
 }
 .menu{	
-	width: 100%;
-	float: left;
+  width: 100%;
+  float: left;
   margin-bottom: 2%;
+  margin-top: -10px;
+  margin-left: -10px;
 }
 .menu img{
 	border-radius: 0!important;
