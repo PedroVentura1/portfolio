@@ -117,18 +117,18 @@ table img{
   height: 190px;
 }
 
-.envolve h4{
+.envolve h2{
     float: left;    
     width: 60%; 
     margin-bottom:0px;  
     margin-top: 30px; 
 }
-.envolve h5{	  
+.work{	  
     width: 60%;
     float: left;
     margin-top: 10px;
     margin-bottom: 20px;
-    font-weight: lighter;
+    font-size: 1.4em;
 }
 
 .envolve img	{
