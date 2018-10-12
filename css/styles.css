@@ -93,8 +93,8 @@ ul li{
 }
 .title{
   font-size: 20px;
-    position: relative;
-    bottom: -50px;
+    /*position: relative;
+    bottom: -50px;*/
     color: #4A90E2;
 }
 table span{
