@@ -2,107 +2,80 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8">
-	<script type="text/javascript"></script>
-	<link rel="stylesheet" type="text/css" href="css/style.css">	
-	<title>sitePetervent con mi primer servidor web.. YES!!</title>
-</head>
-<body>
-	<div class="envolve"> 
-	
-	<div class="menu"><!-- <p>- - - </p> -->
-		<img src="https://png.pngtree.com/svg/20170222/menu_13564.png">
-	</div>
-	<div>
-	<img src="img/picture.jpg">
-	</div>
-	<h1><!-- test with my first web server -->Pedro Ventura</h1>
-	<h3>UX / UI</h3>
-	</div>
-	
-	<!-- <img src="https://cdn.pixabay.com/photo/2013/07/13/10/07/man-156584_1280.png"> -->
-	
-	
-	
-	<!-- <img src="https://plus.google.com/u/0/photos/118217313439890241331/albums/profile/6578971053299906274?iso=false"> -->
-	
-	
-	<section>
-		<p>I like UI/UX and the new tendences in the technology.</p>
-		<p>I find ux very interesting and I want to deepen my understanding more in this area. I find also understand the layout with HTML5, CSS3,a little JS JQuery and bootstrap.</p>
-</section>
-<div class="collage"><img src="img/collage.png"></div>
-
-</body>
-</html>
-
-
-<!--/// portfolio section///-- >
-
-<!DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script type="text/javascript"></script>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<title>sitePetervent</title>
 </head>
 <body>
-	<div class="envolve"> 
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>         
+    </div>
+    <div class="modal-body">    	
+      <ul>
+			<li>Portfolio</li>
+			<li>Contact</li>
+		</ul>
+    </div>    
+  </div>
+
+</div>
+
+<div class="envolve"> 
 	
-	<div class="menu">
-		<!-- <img src="https://png.pngtree.com/svg/20170222/menu_13564.png"> -->
-		<div class="arrow"> Inicio</div>	
+	<div class="menu">		
+		<div class="container" id="myBtn">
+		  <div class="bar1"></div>
+		  <div class="bar2"></div>
+		  <div class="bar3"></div>
+		</div>		
 	</div>
+	<div>
+		<img src="img/picture.jpg">
 	</div>
-	<p class="title"> Portfolio</p>
-	<table>  
-	  <tbody>
-	    <tr>
-	      <td>Project about app for iOS, this app send notifications when the drivers have some infractions. 
-	      	<p>Ver mas</p>
-	      </td>
-	      <td><img src="img/verify_min.png"></td>	     
-	    </tr>
-	    <tr>	      
-	      <td><img src="img/s_asesoria_min.png"></td>
-	      <td>Project about app for iOS, this app send notifications when the drivers have some infractions.
-	      	<p class="left">Ver mas</p>
-	       </td>	     
-	    </tr>
-	    <tr>
-	      <td>Project about app for iOS, this app send notifications when the drivers have some infractions. 
-	      	<p>Ver mas</p>
-	      </td>
-	      <td><img src="img/s_pocket_min.png"></td>	     
-	    </tr>
-	    <tr>	      
-	      <td><img src="img/bursanet_min.png"></td>
-	      <td>Project about app for iOS, this app send notifications when the drivers have some infractions. 
-	      	<p class="left">Ver mas</p>
-	      </td>	     
-	    </tr>
-	    <tr>
-	      <td>Project about app for iOS, this app send notifications when the drivers have some infractions. 
-	      	<p>Ver mas</p>
-	      </td>
-	      <td><img src="img/modelonow_min.png"></td>	     
-	    </tr>
-	    <tr>	      
-	      <td><img src="img/kanzlei_min.png"></td>
-	      <td>Project about app for iOS, this app send notifications when the drivers have some infractions. 
-	      	<p class="left">Ver mas</p>
-	      </td>	     
-	    </tr>
-	    
-	  </tbody>
-	</table>
+	<h4><!-- test with my first web server -->Pedro Ventura</h4>
+	<h5>UX / UI</h5>
+</div>	
 	
-	
-	<section>
-		<p>I like UI/UX and the new tendences in the technology.</p>
-		<p>I find ux very interesting and I want to deepen my understanding more in this area. I find also understand the layout with HTML5, CSS3,a little JS JQuery and bootstrap.</p>
+<section>
+	<p>I like UI/UX and the new tendences in the technology.</p>
+	<p>I find ux very interesting and I want to deepen my understanding more in this area. I find also understand the layout with HTML5, CSS3,a little JS JQuery and bootstrap.</p>
 </section>
 <div class="collage"><img src="img/collage.png"></div>
+
+<script>
+	// Get the modal
+	var modal = document.getElementById('myModal');
+
+	// Get the button that opens the modal
+	var btn = document.getElementById("myBtn");
+
+	// Get the <span> element that closes the modal
+	var span = document.getElementsByClassName("close")[0];
+
+	// When the user clicks the button, open the modal 
+	btn.onclick = function() {
+	    modal.style.display = "block";
+	}
+
+	// When the user clicks on <span> (x), close the modal
+	span.onclick = function() {
+	    modal.style.display = "none";
+	}
+
+	// When the user clicks anywhere outside of the modal, close it
+	window.onclick = function(event) {
+	    if (event.target == modal) {
+	        modal.style.display = "none";
+	    }
+	}
+</script>
 
 </body>
 </html>
