@@ -1,3 +1,5 @@
+
+
 head{
 	float: left;
 }
@@ -5,24 +7,32 @@ body{
 	margin: 8%;
 	/*position: absolute;*/
     font-family:gothamhtf-book;
-    font-size: 1.5em;
+    /*font-size: 1.5em;*/
+    font-size: .8em;
+    line-height: 1.5em;
     color: #4A4A4A;
+    margin-top: 50px;
 }
 section{
-  float: left;
-   line-height: 1.8em;
-   font-size: 12pt; 
-   margin-top: 0px;
+  float: left;  
+    line-height: 1.8em;
+    font-size: 12pt;    
+    margin-top: 0px;
 }
 section p::first-letter {  
-  font-size: 3em;
+  font-size: 3em;  
 }
 .menu{	
-  width: 100%;
-  float: left;
+	width: 100%;
+	float: left;
   margin-bottom: 2%;
-  margin-top: -10px;
-  margin-left: -10px;
+  margin-top: -50px;
+    padding-top: 20px;
+    position: fixed;
+    background-color: white;
+    /*box-shadow: -30px 26px 5px 5px rgba(0,0,0,0.2),0 6px 60px 2px rgba(0,0,0,0.19) !important;*/
+    margin-left: -30px;
+
 }
 .menu img{
 	border-radius: 0!important;
@@ -33,18 +43,21 @@ section p::first-letter {
 
 .container {
     display: inline-block;
-    cursor: pointer;      
+    cursor: pointer; 
+    float: left; 
+    margin-left: 20px; 
+    
 }
 .bar1, .bar2, .bar3 {
     width: 34px;
     height: 3px;
     background-color: #BD10E0;
-    margin: 7px 0;
+    margin: 8px 0;
     transition: 0.4s;
 }
 .bar3{
   width: 22px;
-}   
+}    
 
 ul{
   list-style: none;
@@ -68,24 +81,31 @@ ul li{
     /*width: 4%!important;
     height: 50px!important;*/
     border: none!important;
-    background-size: contain;
+    background-size: 12px;
     background-repeat: no-repeat;
-    padding-left: 5%;
-    font-size: 32px;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFkpXl6n0d5dimLYkvWS1AKEZe-4owcThJM2VGVIN6jpB2FyG_gQ');  
+    padding-left: 10%;
+    padding-bottom: 10px;
+    font-size: 14px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFkpXl6n0d5dimLYkvWS1AKEZe-4owcThJM2VGVIN6jpB2FyG_gQ');
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    padding-bottom: 10px;
+    background-position-x: 20px;  
 }
 .title{
-  font-size: 50px;
+  font-size: 20px;
     position: relative;
-    bottom: -100px;
+    bottom: -50px;
     color: #4A90E2;
 }
-table p{
+table span{
       float: right;
-    position: relative;
-    bottom: -150px;
+    /*position: relative;
+    bottom: -30px;*/
     text-decoration: underline;
-    font-size: 30px;
+    font-size: 14px;
+    margin-top: 40px;
 }
 table .left{
   float: left;
@@ -95,20 +115,20 @@ table{
 }
 table img{
   width: 100%;
-  height: 500px;
+  height: 190px;
 }
 
 .envolve h4{
     float: left;    
     width: 60%; 
     margin-bottom:0px;  
-    margin-top: 10px; 
+    margin-top: 30px; 
 }
 .envolve h5{	  
     width: 60%;
     float: left;
     margin-top: 10px;
-    margin-bottom: 20px;	
+    margin-bottom: 20px;
     font-weight: lighter;
 }
 
@@ -119,6 +139,7 @@ table img{
     height: 70px;
     border-radius: 100%;
     margin: 2%;
+    margin-top: 20px;
 }
 
 .collage img{
@@ -137,6 +158,7 @@ table img{
   font-weight: normal;
   font-style: normal;
 }
+
 
 
 /* The Modal (background) */
