@@ -92,11 +92,11 @@ ul li{
     background-position-x: 20px;  
 }
 .title{
-  font-size: 20px;
+  font-size: 1.8em;
     /*position: relative;*/
     bottom: 10px;
     color: #4A90E2;
-    margin-top: 0px;
+    margin-top: 40px;
 }
 table span{
       float: right;
