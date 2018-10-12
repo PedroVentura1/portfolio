@@ -147,7 +147,7 @@ table img{
     width: 60%;
 }
 
-@font-face {
+/* @font-face {
   font-family: "gothamhtf-book";
   src:url("fonts/gothamhtf-book.eot");
   src:url("fonts/gothamhtf-book.eot?#iefix") format("embedded-opentype"),
@@ -156,6 +156,11 @@ table img{
     url("fonts/gothamhtf-book.svg#gothamhtf-book-webfont") format("svg");
   font-weight: normal;
   font-style: normal;
+} */
+@font-face {
+    font-family: gothamhtf-book;
+    src: url(fonts/gothamhtf-book.ttf);
+    font-weight: normal;
 }
 
 
