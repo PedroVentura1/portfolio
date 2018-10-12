@@ -4,7 +4,7 @@ head{
 body{
 	margin: 8%;
 	/*position: absolute;*/
-    font-family:gothamhtf-book;
+    font-family: 'gothamhtf-book', sans-serif;
     /*font-size: 1.5em;*/
     font-size: .8em;
     line-height: 1.5em;
