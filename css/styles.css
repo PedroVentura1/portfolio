@@ -6,7 +6,7 @@ body{
 	/*position: absolute;*/
     font-family: 'pincheFuente', Helvetica, Arial, sans-serif;
     /*font-size: 1.5em;*/
-    font-size: .8em;
+    font-size: .98em;
     line-height: 1.5em;
     color: #4A4A4A;
     margin-top: 50px;
@@ -83,7 +83,7 @@ ul li{
     background-repeat: no-repeat;
     padding-left: 10%;
     padding-bottom: 10px;
-    font-size: 14px;
+    font-size: 16px;
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFkpXl6n0d5dimLYkvWS1AKEZe-4owcThJM2VGVIN6jpB2FyG_gQ');
     position: fixed;
     background-color: #fff;
