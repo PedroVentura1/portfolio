@@ -2,63 +2,80 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="HandheldFriendly" content="true">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script type="text/javascript"></script>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<title>portfolio</title>
+	<title>sitePetervent</title>
 </head>
 <body>
-	<div class="envolve"> 
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>         
+    </div>
+    <div class="modal-body">    	
+      <ul>	
+        <li> <a href="portfolio.html"> Portfolio </a> </li>
+	<li>Contact</li>
+     </ul>
+    </div>    
+  </div>
+
+</div>
+
+<div class="envolve"> 
 	
-	<div class="menu">
-		<!-- <img src="https://png.pngtree.com/svg/20170222/menu_13564.png"> -->
-		<div class="arrow"> <a href="index.html"> INICIO </a> </div>
+	<div class="menu">		
+		<div class="container" id="myBtn">
+		  <div class="bar1"></div>
+		  <div class="bar2"></div>
+		  <div class="bar3"></div>
+		</div>		
 	</div>
-	</div>	
-	<table>  
-	  <tbody>
-	    <tr>
-	      <td>
-		      <p class="title"> Portfolio</p>
-		      Project about app for iOS, this app send notifications when the drivers have some infractions. 
-	      	<span>Ver mas</span>
-	      </td>
-	      <td><img src="img/verify_min.png"></td>	     
-	    </tr>
-	    <tr>	      
-	      <td><img src="img/s_asesoria_min.png"></td>
-	      <td>Project about app for iOS, this app send notifications when the drivers have some infractions.
-	      	<span class="left">Ver mas</span>
-	       </td>	     
-	    </tr>
-	    <tr>
-	      <td>Project about app for iOS, this app send notifications when the drivers have some infractions. 
-	      	<span>Ver mas</span>
-	      </td>
-	      <td><img src="img/s_pocket_min.png"></td>	     
-	    </tr>
-	    <tr>	      
-	      <td><img src="img/bursanet_min.png"></td>
-	      <td>Project about app for iOS, this app send notifications when the drivers have some infractions. 
-	      	<span class="left">Ver mas</span>
-	      </td>	     
-	    </tr>
-	    <tr>
-	      <td>Project about app for iOS, this app send notifications when the drivers have some infractions. 
-	      	<span>Ver mas</span>
-	      </td>
-	      <td><img src="img/modelonow_min.png"></td>	     
-	    </tr>
-	    <tr>	      
-	      <td><img src="img/kanzlei_min.png"></td>
-	      <td>Project about app for iOS, this app send notifications when the drivers have some infractions. 
-	      	<span class="left">Ver mas</span>
-	      </td>	     
-	    </tr>
-	    
-	  </tbody>
-	</table>
+	<div>
+		<img src="img/picture.jpg">
+	</div>
+	<h2><!-- test with my first web server -->Pedro Ventura</h2>
+	<p class="work">UX / UI</p>
+</div>	
+	
+<section>
+	<p>I like UI/UX and the new tendences in the technology.</p>
+	<p>I find ux very interesting and I want to deepen my understanding more in this area. I find also understand the layout with HTML5, CSS3,a little JS JQuery and bootstrap.</p>
+</section>
+<div class="collage"><img src="img/collage.png"></div>
+
+<script>
+	// Get the modal
+	var modal = document.getElementById('myModal');
+
+	// Get the button that opens the modal
+	var btn = document.getElementById("myBtn");
+
+	// Get the <span> element that closes the modal
+	var span = document.getElementsByClassName("close")[0];
+
+	// When the user clicks the button, open the modal 
+	btn.onclick = function() {
+	    modal.style.display = "block";
+	}
+
+	// When the user clicks on <span> (x), close the modal
+	span.onclick = function() {
+	    modal.style.display = "none";
+	}
+
+	// When the user clicks anywhere outside of the modal, close it
+	window.onclick = function(event) {
+	    if (event.target == modal) {
+	        modal.style.display = "none";
+	    }
+	}
+</script>
+
 </body>
 </html>
