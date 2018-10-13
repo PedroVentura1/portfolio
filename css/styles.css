@@ -94,6 +94,9 @@ ul li a {
     padding-bottom: 10px;
     background-position-x: 20px;  
 }
+arrow a {
+	text-decoration:  none;
+	}
 .title{
   font-size: 1.8em;
     /*position: relative;*/
