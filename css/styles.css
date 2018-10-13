@@ -94,6 +94,13 @@ ul li a {
     padding-bottom: 10px;
     background-position-x: 20px;  
 }
+.envolve .acanijo{
+    width: 26px!important;
+    height: 26px!important;
+    float: right;    
+    margin-right: 60px;
+    margin-top: -6px;
+}
 .arrow a {
 	text-decoration:  none;
 }
