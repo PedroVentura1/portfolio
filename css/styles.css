@@ -104,6 +104,10 @@ ul li a {
     color: #4A90E2;
     margin-top: 20px;
 }
+.link{
+    color: #BD10E0;
+    font-size: 1.2em;
+}
 table span{
       float: right;
     /*position: relative;
