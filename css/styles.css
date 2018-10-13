@@ -73,6 +73,9 @@ ul li{
     padding-bottom: 20px;
     margin-top: 30px;
 }
+ul li a {
+   text-decoration:  none;
+}
 
 .arrow{
   border-radius: 0!important;
