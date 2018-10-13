@@ -98,11 +98,11 @@ ul li a {
 	text-decoration:  none;
 }
 .menu .arrow img{
-    width: 24px!important;
-    height: 24px!important;
+    width: 26px!important;
+    height: 26px!important;
     float: right;    
     margin-right: 60px;
-    margin-top: -4px;
+    margin-top: -6px;
 }
 .title{
   font-size: 1.8em;
