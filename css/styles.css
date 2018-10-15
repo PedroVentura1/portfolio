@@ -159,12 +159,12 @@ table img{
 }
 
 .envolve img	{
-	 float: left;
-    margin-right:10%;
+    float: left;
+    margin-right:5%;
 	width: 70px;    
     height: 70px;
     border-radius: 100%;
-    margin: 2%;
+    /*margin: 2%;*/
     margin-top: 20px;
 }
 
