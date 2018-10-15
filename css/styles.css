@@ -2,7 +2,7 @@ head{
 	float: left;
 }
 
-@media screen and (max-width: 415px) {
+/*@media screen and (max-width: 415px) { */
 	
 body{
 	margin: 8%;
@@ -255,4 +255,4 @@ table img{
 .modal-body {padding: 2px 16px;}
 
 	
-}
+/*}*/
