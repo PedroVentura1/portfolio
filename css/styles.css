@@ -317,6 +317,7 @@ table img{
     width: 100%; 
     font-size: 1.2em;
     line-height: 1.6em;
+    margin-bottom: 10px;
   }
   .txt_container span{      
     padding: 0px;
