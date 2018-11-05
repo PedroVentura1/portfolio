@@ -314,8 +314,7 @@ table img{
     width: 100%
   }
   .txt_container{
-    width: 80%;
-    padding: 2em;
+    width: 100%;    
     height: auto;
     font-size: 1.2em;
     line-height: 2em;
