@@ -169,9 +169,10 @@ table img{
 }
 
 .collage img{
-	margin: auto;    
+    margin: auto;    
     display: block;
-    width: 60%;
+    width: 50%;
+    max-width: 250px;
 }
 
 @font-face {
