@@ -256,7 +256,58 @@ table img{
 
 	
 /*}*/
+.Box_container {
+  width: 50%;
+  height: auto;
+  float: left;
+}
+.txt_container {
+  width: 49.99%;
+  float: left;
+  height: 274px;
+  position: relative;
+}
+.txt_container p{
+  padding: .5em;
+  display: block;
+  margin: auto;
+}
 
+.txt_container span{
+  position: absolute;
+  bottom: 10px;  
+  padding: 2px;
+  border-radius: 5px;
+  width: 80px;
+  text-align: center;
+  border: 1px solid #bdbdbd;
+  color: #4b5358;
+  font-size: 10pt;
+  cursor: pointer;
+
+  right: 40%;
+    left: 40%;
+}   
+
+.txt_container span:hover{
+  background: #d9d9f5
+} 
+
+.img_container {
+  width: 49.99%;
+  height: auto;
+  float: left;
+  /*background: pink;*/
+}
+.img_container figure {
+  margin: 0 auto;
+}
+
+.img_container figure img{
+  display: block;
+  margin: auto;
+  width: 100%;
+}
 
 @media screen and (max-width: 641px){
   .txt_container{
