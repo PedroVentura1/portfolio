@@ -271,6 +271,7 @@ table img{
   padding: .5em;
   display: block;
   margin: auto;
+  margin-bottom: 20%;
 }
 
 .txt_container span{
@@ -316,7 +317,7 @@ table img{
   .txt_container{
     width: 100%; 
     font-size: 1.2em;
-    line-height: 2em;
+    line-height: 1.6em;
   }
   .txt_container span{      
     padding: 0px;
