@@ -316,14 +316,14 @@ table img{
   .txt_container{
     width: 80%;
     padding: 2em;
-    height: 500px;
-    font-size: 3em;
+    height: auto;
+    font-size: 1.2em;
     line-height: 2em;
   }
   .txt_container span{      
     padding: 0px;
-    width: 350px;    
-    font-size: 30pt;
+    width: 50%;    
+    font-size: 1em;
     left: 28%;
   }
   .img_container{
