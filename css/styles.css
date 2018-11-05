@@ -274,8 +274,7 @@ table img{
 }
 
 .txt_container span{
-  position: absolute;
-  bottom: 10px;  
+  position: absolute;   
   padding: 2px;
   border-radius: 5px;
   width: 80px;
@@ -324,6 +323,7 @@ table img{
     width: 50%;    
     font-size: 1em;
     left: 28%;
+    bottom: 10px; 
   }
   .img_container{
     width: 99.99%;
