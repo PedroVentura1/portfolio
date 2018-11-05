@@ -314,4 +314,21 @@ table img{
     width: 80%;
     padding: 2em;
   }
+	.txt_container{
+    width: 99.99%;
+    height: 500px;
+    font-size: 3em;
+    line-height: 2em;
+  }
+  .txt_container span{      
+    padding: 0px;
+    width: 350px;    
+    font-size: 30pt;
+    left: 28%;
+  }
+  .img_container{
+    width: 99.99%;
+    margin-bottom: 10%;
+    background: red;
+  } 
 }
