@@ -330,3 +330,9 @@ table img{
     margin-bottom: 10%;
   } 
 }
+
+@media only screen and (min-width:568px) and (max-width:768px){
+ .Box_container {
+    width: 100%;
+  }	
+}
