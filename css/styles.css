@@ -260,7 +260,6 @@ table img{
 
 @media screen and (max-width: 641px){
   .txt_container{
-    border: 1px solid red;
     width: 80%;
     padding: 2em;
   }
