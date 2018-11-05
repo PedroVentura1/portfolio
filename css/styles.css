@@ -264,7 +264,7 @@ table img{
 .txt_container {
   width: 49.99%;
   float: left;
-  height: 274px;
+  min-height: 250px;
   position: relative;
 }
 .txt_container p{
@@ -314,8 +314,7 @@ table img{
     width: 100%
   }
   .txt_container{
-    width: 100%;    
-    height: auto;
+    width: 100%; 
     font-size: 1.2em;
     line-height: 2em;
   }
