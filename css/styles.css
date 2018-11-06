@@ -310,7 +310,7 @@ table img{
 .img_container figure img{
   display: block;
   margin: auto;
-  width: 90%;
+  width: 85%;
 }
 
 @media screen and (max-width: 641px){
