@@ -25,7 +25,9 @@
    <article>
       <div class="Box_container"> <!-- box container text and image -->
          <div class="txt_container"> <p>Project about app for iOS, this app send notifications when the drivers have some infractions.</p>
-         <span>Ver mas</span>
+         <!-- <span>Ver mas</span> -->
+		 <span id="myBtn"> Ver mas</span>
+		 
       </div>
          <div class="img_container"> <figure><img src="img/verify_min.png"> 
          </figure></div>
@@ -69,6 +71,44 @@
    </article>
 
 </section>
+	
+	
+	
+	<script>
+   // Get the modal
+   var modal = document.getElementById('myModal');
+
+   // Get the button that opens the modal
+   var btn = document.getElementById("myBtn");   
+
+   // Get the <span> element that closes the modal
+   var span = document.getElementsByClassName("close")[0];
+
+   // When the user clicks the button, open the modal 
+   btn.onclick = function() {
+       modal.style.display = "block";
+   }
+   
+   // When the user clicks on <span> (x), close the modal
+   span.onclick = function() {
+       modal.style.display = "none";
+   }
+
+   // When the user clicks anywhere outside of the modal, close it
+   window.onclick = function(event) {
+       if (event.target == modal) {
+           modal.style.display = "none";
+       }
+   }
+
+function clickHandler() {
+   
+  alert("Me tiene hasta la madre esta chingadera de mierda, pinches chingaderas");
+
+}
+
+
+</script>
 	
 </body>
 </html>
