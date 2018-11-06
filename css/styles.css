@@ -16,9 +16,14 @@ body{
 }
 section{
   float: left;  
-    line-height: 1.8em;
-    font-size: 15pt;    
-    margin-top: 0px;
+  line-height: 1.8em;
+  font-size: 15pt;    
+  margin-top: 0px;
+}
+.portfolio {
+   color: #4A90E2;
+   margin-bottom: 50px;
+   margin-top: 40px;
 }
 section p::first-letter {  
   font-size: 3em;  
