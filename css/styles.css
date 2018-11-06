@@ -22,8 +22,8 @@ section{
 }
 .portfolio {
    color: #4A90E2;
-   margin-bottom: 50px;
-   margin-top: 40px;
+   margin-bottom: 30px;
+   margin-top: 25px;
 }
 section .portfolio::first-letter {  
   font-size: 3em;  
