@@ -25,7 +25,7 @@ section{
    margin-bottom: 50px;
    margin-top: 40px;
 }
-portfolio::first-letter {  
+section .portfolio::first-letter {  
   font-size: 3em;  
 }
 .menu{	
