@@ -1,116 +1,199 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="HandheldFriendly" content="true">
-	<script type="text/javascript"></script>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<title>portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/estilos.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">  
+    <script type="text/javascript"></script>
+    
+    <title>Portfolio</title>
 </head>
-<body>
-	
-<div class="modal">
-    <div class="modal-content">
-        <span class="close-button">X</span>
-        <h3>Hello, I am a modal!</h3>
-            <div class="contimages"> 
-                   <div class="ContIntern">
-                        <img class="portfolio-pull-app" id="slide2" src="img/verify_max.png" alt="an image"> 
-                        <div class="btn-slide small" onclick="mySlideb('next');"> &rarr;</div>
-                        <div class="btn-slide" onclick="mySlideb('prev');"> &larr; </div>                           
-                    </div>
-            </div>
-               <p>Es una aplicación que te permite consultar infracciones así como un recordatorio cuando debes verificar tu auto o si es un auto que descansa entre semana, si te registras te permite ver más funcionalidades así como modificar información, incluye además un servicio que te ayuda a verificar a domicilio.</p>         
+  
+  <body id="block">      
 
-    </div>
-</div>
-	
-	
-	
-	<div class="envolve"> 
-	
-	<div class="menu">
-		<!-- <img src="https://png.pngtree.com/svg/20170222/menu_13564.png"> -->
-		<div class="arrow"> <a href="index.html"> HOME </a> 				
-	</div>
-	</div>
-	</div>
-	
-	
-<section>
-   <p class="portfolio"> Portfolio </p>   
-   <article>
-      <div class="Box_container"> <!-- box container text and image -->
-         <div class="txt_container"> <p>Project about app for iOS, this app send notifications when the drivers have some infractions.</p>
-         <!-- <span>Ver mas</span> -->
-		 <span class="trigger"> Ver mas</span>
-		 
-      </div>
-         <div class="img_container"> <figure><img src="img/verify_min.png"> 
-         </figure></div>
+      <div class="envolve">       
+          <div class="menu">            
+            <div class="arrow"> <a href="index.html"> HOME </a> </div>
+          </div>
       </div>
 
-      <div class="Box_container">   <!-- BOx container text and image -->
-         <div class="txt_container"><p>Project about app for iOS, this app send notifications when the drivers have some infractions.</p>
-         <span>Ver mas</span>
-      </div>
-         <div class="img_container"> <figure><img src="img/s_asesoria_min.png">
-         </figure></div>
-      </div>
-      <div class="Box_container">   <!-- BOx container text and image -->
-         <div class="txt_container"><p>Project about app for iOS, this app send notifications when the drivers have some infractions.</p>
-         <span>Ver mas</span>
-      </div>
-         <div class="img_container"> <figure><img src="img/s_pocket_min.png">
-         </figure></div>
-      </div>
-      <div class="Box_container">   <!-- BOx container text and image -->
-         <div class="txt_container"><p>Project about app for iOS, this app send notifications when the drivers have some infractions.</p>
-         <span>Ver mas</span>
-      </div>
-         <div class="img_container"> <figure><img src="img/bursanet_min.png">
-         </figure></div>
-      </div>
-      <div class="Box_container">   <!-- BOx container text and image -->
-         <div class="txt_container"><p>Project about app for iOS, this app send notifications when the drivers have some infractions.</p>
-         <span>Ver mas</span>
-      </div>
-         <div class="img_container"> <figure><img src="img/modelonow_min.png">
-         </figure></div>
-      </div>
-      <div class="Box_container">   <!-- BOx container text and image -->
-         <div class="txt_container"><p>Project about app for iOS, this app send notifications when the drivers have some infractions.</p>
-         <span>Ver mas</span>
-      </div>
-         <div class="img_container"> <figure><img src="img/kanzlei_min.png">
-         </figure></div>
-      </div>
-   </article>
+      <section>  
+         
+          <article>
+              <div class="Box_container"> <!-- box container text and image -->
+                 <div class="txt_container"> <p>Proyecto Verify APP versión iOS, es una aplicación que te permite consultar infracciones y temas relacionados con tu auto.</p>
+                      <span class="trigger">Ver mas btn1</span>
+                 </div>
+                 <div class="img_container"> 
+                    <figure><img src="img/verify_min.png">  </figure>
+                 </div>
 
-</section>
+                  <div class="modal">
+                      <div class="modal-content actinver"> 
+                          <div id="verify2">                               
+                                <div class="modal-title">
+                                    <h3>Actinver</h3>
+                                    <span class="close-button">X</span>
+                                </div>
+                          </div>
+                        <!-- <div class="verify">
+                          <div class="modal-title ">
+                              <h3>Proyecto Verify App</h3>
+                              <span class="close-button">X</span>
+                          </div>
+                          
+                          <div class="modal-images"> 
+                                  <div class="btn-slide" onclick="mySlideb('prev');"> &larr; </div>  
+                                  <div class="btn-slide" onclick="mySlideb('next');"> &rarr;</div>
+                                  <figure><img id="slide2" src="img/verify_max.png" alt="an image"> </figure>                             
+                                                 
+                          </div>
+                          <div class="modal-description">
+                             <p>Para esta APP me tocó trabajar en mejoras de usabilidad resolviendo un diseño más amigable para el usuario, otro de los objetivos era proponer una mejor interfaz para incrementar las descargas con los usuarios iOS, ya que la app sólo estaba disponible para usuarios android, en este nuevo diseño manejé más iconografía para describir mejor las secciones, colores más contrastantes una tipografía más legible, etc.</p>   
 
-<script>
-   var modal = document.querySelector(".modal");
-	var trigger = document.querySelector(".trigger");
-	var closeButton = document.querySelector(".close-button");
+                             <p>Verify es una aplicación que te permite consultar infracciones, debes registrarte para que te envíe notificaciones cuando tienes una multa, verifican tu auto a domicilio y te da tips sobre temas relacionados con tu auto.</p> 
+                          </div>
+                          </div> -->
+                      </div>
+                  </div>
+              </div>
 
-	function toggleModal() {
-	    modal.classList.toggle("show-modal");
-	}
+              <div class="Box_container">   <!-- BOx container text and image -->
+                   <div class="txt_container"><p>Project about app for iOS, this app send notifications when the drivers have some infractions.</p>
+                      <span class="trigger2">Ver mas btn2</span>                    
+                   </div>
 
-	function windowOnClick(event) {
-	    if (event.target === modal) {
-		toggleModal();
-	    }
-	}
+                   <div class="img_container"> 
+                       <figure><img src="img/s_asesoria_min.png"> </figure>
+                  </div>
 
-	trigger.addEventListener("click", toggleModal);
-	closeButton.addEventListener("click", toggleModal);
-	window.addEventListener("click", windowOnClick);
+                  <div class="modal">
+                      <div class="modal-content"> 
+                          <div id="verify">                               
+                              <div class="modal-title">
+                                  <h3>Actinver</h3>
+                                  <span class="close-button">X</span>
+                              </div>
+                              
+                              <div class="modal-images"> 
+                                      <div class="btn-slide" onclick="mySlideb('prev');"> &larr; </div>  
+                                      <div class="btn-slide" onclick="mySlideb('next');"> &rarr;</div>
+                                      <figure><img id="slide2" src="img/verify_max.png" alt="an image"> </figure>
+                                 
+                                      <!-- <img class="portfolio-pull-app" id="slide2" src="img/verify_max.png" alt="an image">  -->                 
+                              </div>
+                              <div class="modal-description">
+                                 <p>Es una aplicación que te permite consultar infracciones así como un recordatorio cuando debes verificar tu auto o si es un auto que descansa entre semana, si te registras te permite ver más funcionalidades así como modificar información, incluye además un servicio que te ayuda a verificar a domicilio.</p>   
+                                 <p>Es una aplicación que te permite consultar infracciones así como un recordatorio cuando debes verificar tu auto o si es un auto que descansa entre semana, si te registras te permite ver más funcionalidades así como modificar información, incluye además un servicio que te ayuda a verificar a domicilio.</p> 
+                                 <p>Es una aplicación que te permite consultar infracciones así como un recordatorio cuando debes verificar tu auto o si es un auto que descansa entre semana, si te registras te permite ver más funcionalidades así como modificar información, incluye además un servicio que te ayuda a verificar a domicilio.</p> 
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="Box_container">   <!-- BOx container text and image -->
+                  <div class="txt_container"><p>Project about app for iOS, this app send notifications when the drivers have some infractions.</p>
+                     <span id="three">Ver mas btn3</span>
+                  </div>
+                  <div class="img_container"> 
+                     <figure><img src="img/s_pocket_min.png"> </figure>
+                  </div>
 
-</script>
-	
-</body>
+                  <div class="modal">
+                      <div class="modal-content"> 
+                        <div class="quePedo">
+                            <div class="modal-title ">
+                                <h3>Proyecto Verify App</h3>
+                                <span class="close-button">X</span>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="Box_container">   <!-- BOx container text and image -->
+                 <div class="txt_container"><p>Project about app for iOS, this app send notifications when the drivers have some infractions.</p>
+                     <span id="fourr">Ver mas btn4</span>
+                 </div>
+                 <div class="img_container"> 
+                    <figure><img src="img/bursanet_min.png"> </figure>
+                 </div>
+              </div>
+              <div class="Box_container">   <!-- BOx container text and image -->
+                 <div class="txt_container"><p>Project about app for iOS, this app send notifications when the drivers have some infractions.</p>
+                    <span id="five">Ver mas btn5</span>
+                 </div>
+                 <div class="img_container"> 
+                    <figure><img src="img/modelonow_min.png"> </figure>
+                 </div>
+              </div>
+              <div class="Box_container">   <!-- BOx container text and image -->
+                 <div class="txt_container"><p>Project about app for iOS, this app send notifications when the drivers have some infractions.</p>
+                    <span id="six">Ver mas btn6</span>
+                 </div>
+                 <div class="img_container"> 
+                    <figure><img src="img/kanzlei_min.png"> </figure>
+                 </div>
+              </div>
+          </article>
+
+      </section>
+
+      <script>
+        var modal = document.querySelector(".modal");
+        var trigger = document.querySelector(".trigger");
+        var trigger2 = document.querySelector(".trigger2");
+        var closeButton = document.querySelector(".close-button");    
+
+      /////////// others examples//////////
+
+      var threeElement = document.querySelector("#three", "verify2");
+      var fourElement = document.querySelector("#fourr", "verify");
+      var fiveElement = document.querySelector("#five");
+      var sixElement = document.querySelector("#six");
+
+      threeElement.addEventListener("click", doSomething, false);
+      fourElement.addEventListener("click", doSomething, false);
+      fiveElement.addEventListener("click", doSomething, false);
+      sixElement.addEventListener("click", doSomething, false);
+             
+        
+        function doSomething(e) {
+          var clickedItem = e.target.id;
+          alert("hello" + clickedItem);
+          modal.classList.add('show-modal', 'actinver'); 
+          // document.getElementById('verify2');
+          // document.getElementById("verify2").value;
+        }
+
+
+        function toggleModal() {
+            modal.classList.toggle("show-modal");                   
+            // document.getElementById("block").style.overflow = "hidden";
+            // document.getElementById("block").style.background = "blue";          
+        }     
+
+        function windowOnClick(event) {
+            if (event.target === modal) { 
+                toggleModal();  
+                // document.getElementById("block").removeAttribute("style");                
+            }          
+            // document.getElementById("block").remove();
+
+        }
+
+        trigger.addEventListener("click", toggleModal);
+        trigger2.addEventListener("click", toggleModal);
+        closeButton.addEventListener("click", toggleModal);
+        window.addEventListener("click", windowOnClick);
+
+//////////        
+
+      </script>
+
+  </body>
+
 </html>
