@@ -82,13 +82,6 @@ const addAttributes = (element, attrObj) => {
       printModal(content);
     });
 
-
-
-    // imprime el contenido que contiene esta clase al dar click en este ID
-    // document.getElementById('sistemaActDetaill').addEventListener('click', () => {
-    //   printModal(infoSisteActinver.cloneNode(true));
-    // });  
-
   // inside slide detaill 
     var i = 0,images = ["img/verify_max.png",
                             "img/verify_home.png",
