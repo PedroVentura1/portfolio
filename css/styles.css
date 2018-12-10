@@ -283,6 +283,27 @@ section{
   display: none;
 }
 
+.content {
+  min-height: calc(90vh - 50px);
+}
+footer {  
+  height: 50px;  
+  font-size: .7em;
+  text-align: center;
+  padding: 15px;
+}
+footer p{
+  margin: 0;
+}
+footer p a{
+  text-decoration: none;
+  padding: 1%;
+  margin-right: 5px;
+}
+footer p a img{
+  width: 20px;
+}
+
 @media screen and (max-width: 641px){
     .titleDetaill{
       width: 99%;
