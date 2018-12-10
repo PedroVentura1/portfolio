@@ -37,8 +37,12 @@ header nav ul li:first-child{
 }
 
 header nav ul li a {
-    text-decoration:  none;
-  padding-left: 8px;    
+  text-decoration:  none;
+  padding-left: 8px;
+  color: #BD10E0;
+}
+header nav ul li a:hover{
+  color: #4A4A4A;
 }
 hgroup h1{
       font-size: 1.6em;
