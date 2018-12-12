@@ -94,7 +94,9 @@ section{
   float: left;
   margin-top: 2em; 
 }
-
+.Box_container:last-child {
+  margin-bottom: 3%;
+}
 .txt_container {
   width: 49.99%;
   float: left;
