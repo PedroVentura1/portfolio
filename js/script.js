@@ -98,7 +98,7 @@ const addAttributes = (element, attrObj) => {
                   i--;
                   if(i < 0){ i = 0; }
               }              
-              document.getElementById('slide').src = images[i];
+              document.getElementById('ed-modal-content').getElementsByClassName('slide')[0].src = images[i];  
           }
 
           var ib = 0,imagesb = ["img/actinverSistemaA.png",
@@ -113,8 +113,8 @@ const addAttributes = (element, attrObj) => {
               }else{
                   ib--;
                   if(ib < 0){ ib = 0; }
-              }              
-              document.getElementById('slide2').src = imagesb[ib];
+              }
+              document.getElementById('ed-modal-content').getElementsByClassName('slide2')[0].src = imagesb[ib];
           }
 
           var ic = 0,imagesc = ["img/spendingBBVA.png",
@@ -129,8 +129,8 @@ const addAttributes = (element, attrObj) => {
               }else{
                   ic--;
                   if(ic < 0){ ic = 0; }
-              }              
-              document.getElementById('slide3').src = imagesc[ic];
+              }
+              document.getElementById('ed-modal-content').getElementsByClassName('slide3')[0].src = imagesc[ic];
           }
 
 
