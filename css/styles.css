@@ -1,7 +1,8 @@
 body {
-    font-family: 'LaFont', Helvetica, Arial, sans-serif;
+    font-family: 'Quattrocento Sans', sans-serif;
     line-height: 1.8em;
-    font-size: 13pt;
+    /*font-size: 13pt;*/
+    font-size: 1.2em;
     letter-spacing: .2px;
     margin: 8%;
     margin-top: 3%;
@@ -58,7 +59,8 @@ hgroup h1{
 }
 section{   
     line-height: 1.8em;
-    font-size: 12pt;    
+    /*font-size: 12pt;*/
+    font-size: 1em;
     margin-top: 0px;
     width: 100%;
 }
@@ -276,16 +278,6 @@ section{
 }
 .link{
   color: #BD10E0;
-}
-
-@font-face {
-  font-family: 'LaFont';
-  src: url('webfont.eot'); /* IE9 Compat Modes */
-  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
-       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/gothamhtfBook.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 #informacionVerify, #infoSisteActinver, #informacionBbva, #infoBursanet, #infoModeloNow, #infoKanzlei {
