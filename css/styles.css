@@ -1,8 +1,7 @@
 body {
-    font-family: 'Cantarell', sans-serif;
+    font-family: 'LaFont', Helvetica, Arial, sans-serif;
     line-height: 1.8em;
-    /*font-size: 13pt;*/
-    font-size: 1em;
+    font-size: 13pt;
     letter-spacing: .2px;
     margin: 8%;
     margin-top: 3%;
@@ -59,8 +58,7 @@ hgroup h1{
 }
 section{   
     line-height: 1.8em;
-    /*font-size: 12pt;*/
-    font-size: 1.2em;
+    font-size: 12pt;    
     margin-top: 0px;
     width: 100%;
 }
@@ -304,6 +302,10 @@ footer p a{
 footer p a img{
   width: 20px;
 }
+@font-face {
+  font-family: 'LaFont';
+  src: url('../fonts/gothamhtfBook.eot') format('eot'), url('../fonts/gothamhtfBook.woff') format('woff'), url('../fonts/gothamhtfBook.ttf') format('truetype');
+} 
 
 @media screen and (max-width: 641px){
     .titleDetaill{
