@@ -46,7 +46,7 @@ const addAttributes = (element, attrObj) => {
     }
     
 
-    document.getElementById('verifyDetaill verifyDetaill2').addEventListener('click', () => {
+    document.getElementById('verifyDetaill').addEventListener('click', () => {
       var content = informacionVerify.cloneNode(true)
       content.style["display"] = "block";
       printModal(content);
