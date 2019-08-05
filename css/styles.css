@@ -290,6 +290,7 @@ footer {
   font-size: .7em;
   text-align: center;
   padding: 15px;
+  clear: both;
 }
 footer p{
   margin: 0;
