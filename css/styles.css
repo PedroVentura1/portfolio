@@ -115,13 +115,10 @@ section{
 .txt_container span{
   font-size: 1em;
   border-radius: 5px; 
-  /*border: 1px solid #bdbdbd;*/
-  background: -webkit-gradient(linear, left top, right top, from(#0072ff), to(#00d4ff));
-  background: linear-gradient(90deg, #0072ff 0%, #00d4ff 100%);
-  color: #fff;
+  border: 1px solid #bdbdbd;  
   font-weight: bold;
   cursor: pointer;
-  padding: 5px 60px;
+  padding: 8px 60px;
   position: absolute;
   top: calc(250px + -3em);
   left: 15%;
