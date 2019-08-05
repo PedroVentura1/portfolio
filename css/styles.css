@@ -118,10 +118,10 @@ section{
   border: 1px solid #bdbdbd;
   color: #4b5358;
   cursor: pointer;
-  padding: 5px 40px;
+  padding: 5px 60px;
   position: absolute;
   top: calc(250px + -3em);
-  left: 25%;
+  left: 15%;
 }   
 
 .txt_container span:hover{
