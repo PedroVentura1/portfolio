@@ -352,11 +352,13 @@ footer p a img{
   .Box_container {
       width: 100%;
       margin-top: 1em;
-    }
-      section article .description{
-              background: #9b2a9a;
-           }
+    }      
 }
+@media (max-width: 641px) {
+    section article .description{
+              background: #03a9f4;
+           }
+    }
 
 @media (min-width: 768px) {
   section article .description{
