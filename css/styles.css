@@ -353,6 +353,9 @@ footer p a img{
       width: 100%;
       margin-top: 1em;
     }
+      section article .description{
+              background: #9b2a9a;
+           }
 }
 
 @media (min-width: 768px) {
@@ -360,8 +363,7 @@ footer p a img{
     width: 64.99%;      
       float: left;
       font-size: 1.4em;
-      line-height: 2em;
-      background: #9b2a9a;
+      line-height: 2em;      
   }
   .collage{
     margin: 0 auto;
