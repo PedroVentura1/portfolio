@@ -357,7 +357,14 @@ footer p a img{
 @media (max-width: 641px) {
     section article .description{
               background: #03a9f4;
-           }   
+           } 
+    h1{
+        width: 100%;
+        font-size: 24px;
+        }
+    h2{
+        margin-top: 10px;
+    }       
     }
 
 @media (min-width: 768px) {
