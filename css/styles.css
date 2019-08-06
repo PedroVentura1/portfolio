@@ -357,12 +357,7 @@ footer p a img{
 @media (max-width: 641px) {
     section article .description{
               background: #03a9f4;
-           }
-    hgroup h1{
-      display: block;
-      margin-top: -100px;
-      margin-left: 34%;
-}
+           }   
     }
 
 @media (min-width: 768px) {
