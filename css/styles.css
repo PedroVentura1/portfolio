@@ -357,13 +357,13 @@ footer p a img{
 @media (max-width: 641px) {    
     h1{
         width: 100%;
-        font-size: 27px!important;
+        font-size: 26px!important;
         }
     h2{
         margin-top: 0px;
     }    
     header img{
-        margin-right:15px;
+        margin-right:14px;
     }
   }
 
