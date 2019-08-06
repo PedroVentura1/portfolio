@@ -360,12 +360,15 @@ footer p a img{
            } 
     h1{
         width: 100%;
-        font-size: 24px;
+        font-size: 24px!important;
         }
     h2{
         margin-top: 10px;
-    }       
+    }    
+    header img{
+        margin-right:10px;
     }
+  }
 
 @media (min-width: 768px) {
   section article .description{
