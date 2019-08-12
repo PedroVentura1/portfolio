@@ -51,8 +51,19 @@ const addAttributes = (element, attrObj) => {
       content.style["display"] = "block";
       printModal(content);
     });
+   document.getElementById('verifyItemImg').addEventListener('click', () => {
+      var content = informacionVerify.cloneNode(true)
+      content.style["display"] = "block";
+      printModal(content);
+    });
+
 
     document.getElementById('sistemaActDetaill').addEventListener('click', () => {
+      var content = infoSisteActinver.cloneNode(true)
+      content.style["display"] = "block";
+      printModal(content);
+    });
+   document.getElementById('sisActItemImg').addEventListener('click', () => {
       var content = infoSisteActinver.cloneNode(true)
       content.style["display"] = "block";
       printModal(content);
@@ -63,8 +74,18 @@ const addAttributes = (element, attrObj) => {
       content.style["display"] = "block";
       printModal(content);
     });
+   document.getElementById('bbvaItemImg').addEventListener('click', () => {
+      var content = informacionBbva.cloneNode(true)
+      content.style["display"] = "block";
+      printModal(content);
+    });
 
     document.getElementById('bursanetDetaill').addEventListener('click', () => {
+      var content = infoBursanet.cloneNode(true)
+      content.style["display"] = "block";
+      printModal(content);
+    });
+   document.getElementById('bursanetItemImg').addEventListener('click', () => {
       var content = infoBursanet.cloneNode(true)
       content.style["display"] = "block";
       printModal(content);
@@ -75,8 +96,18 @@ const addAttributes = (element, attrObj) => {
       content.style["display"] = "block";
       printModal(content);
     });
+   document.getElementById('modeloItemImg').addEventListener('click', () => {
+      var content = infoModeloNow.cloneNode(true)
+      content.style["display"] = "block";
+      printModal(content);
+    });
 
     document.getElementById('kanzleiDetaill').addEventListener('click', () => {
+      var content = infoKanzlei.cloneNode(true)
+      content.style["display"] = "block";
+      printModal(content);
+    });
+   document.getElementById('kanzleiItemImg').addEventListener('click', () => {
       var content = infoKanzlei.cloneNode(true)
       content.style["display"] = "block";
       printModal(content);
