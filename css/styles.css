@@ -281,6 +281,14 @@ section{
 #informacionVerify, #infoSisteActinver, #informacionBbva, #infoBursanet, #infoModeloNow, #infoKanzlei {
   display: none;
 }
+#verifyItemImg, #sisActItemImg, #bbvaItemImg, #bursanetItemImg, #modeloItemImg, #kanzleiItemImg {
+  cursor: pointer;
+}
+.img_container figure img:hover{
+  -webkit-box-shadow: 0 0 5px #a5a5a5;
+-moz-box-shadow: 0 0 5px #a5a5a5;
+box-shadow: 0 0 5px #a5a5a5;
+}
 
 .content {
   min-height: calc(90vh - 50px);
