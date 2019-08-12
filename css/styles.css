@@ -115,8 +115,7 @@ section{
 .txt_container span{
   font-size: 1em;
   border-radius: 5px; 
-  border: 1px solid #bdbdbd;  
-  font-weight: bold;
+  border: 1px solid #bdbdbd;    
   cursor: pointer;
   padding: 8px 60px;
   position: absolute;
@@ -125,7 +124,11 @@ section{
 }   
 
 .txt_container span:hover{
-  background: #d9d9f5
+  background: #fff;
+  font-weight: bold;
+  box-shadow: 0 0 8px #286fc1;
+  color: #4a90e2;
+  border: 1px solid #4a90e2;
 } 
 .img_container {
   width: 49.99%;
