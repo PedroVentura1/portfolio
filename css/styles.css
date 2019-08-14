@@ -294,7 +294,7 @@ box-shadow: 0 0 5px #a5a5a5;
 }
 
 .content {
-  min-height: calc(90vh - 50px);
+  min-height: calc(88vh - 50px);
 }
 footer {  
   height: 50px;  
