@@ -87,6 +87,11 @@ nav ul li a.active {
   font-weight: bolder;
 }
 
+.highlight {
+    margin-left: 1em;
+    font-size: 1.2em;
+}
+
 nav ul img {
     border: 1px solid red;
     height: max-content;
@@ -404,14 +409,14 @@ footer p:first-child {
 
 
 .activo{
-    background-color: #1459DE!important;
+    background-color: #074682!important;
     color: white!important;
     border: none!important;
     pointer-events: none;
 }
 
 .activo_red{
-    background-color: #E70024!important;
+    background-color: #1459DE!important;
     color: white!important;
     border: none!important;
     pointer-events: none;
